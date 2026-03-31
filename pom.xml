@@ -21,6 +21,8 @@
       <id>site-server</id>
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
+     <sonar.host.login>http://54.163.166.201:9000/</sonar.host.login>
+     <sonar.login>squ_7de1ebcb2de9165182122d738820da004a4f62da</sonar.login>
     </site>
     <snapshotRepository>
             <id>nexus</id>
