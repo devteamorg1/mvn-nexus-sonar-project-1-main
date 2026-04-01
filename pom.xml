@@ -14,6 +14,7 @@
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
+    <sonar.host.url>http://3.88.207.213:9000/<sonar.host.url>
   </properties>      
 
   <distributionManagement>
@@ -21,8 +22,6 @@
       <id>site-server</id>
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
-     <sonar.host.url>http://54.163.166.201:9000/</sonar.host.url>
-     <sonar.login>squ_7de1ebcb2de9165182122d738820da004a4f62da</sonar.login>
     </site>
     <snapshotRepository>
             <id>nexus</id>
