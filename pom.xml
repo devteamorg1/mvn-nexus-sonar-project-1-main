@@ -26,11 +26,13 @@
     </site>
     <snapshotRepository>
             <id>nexus</id>
-            <url>http://172.31.10.0:8081/repository/maven-snapshots/</url>
+            <name>icici2-Snapshot Nexus Repository</name>
+            <url>http://54.208.130.205:8081/repository/icici2-Snapshot/</url>
         </snapshotRepository>
         <repository>
             <id>nexus</id>
-            <url>http://172.31.10.0:8081/repository/maven-releases/</url>
+            <name>icici2-Release Nexus Repository</name>
+            <url>http://54.208.130.205:8081/repository/icici2-Release/</url>
         </repository>
   </distributionManagement>
 
